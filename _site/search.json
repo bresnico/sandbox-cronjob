@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "sandbox-cronjob",
+    "section": "",
+    "text": "To learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n\ndate <- Sys.Date()\nhour <- Sys.time()\n\npaste0(\"Nous sommes le \", format(date, format=\"%d/%m/%Y\"), \" et cette page a été mise à jour à \", format(hour, format=\"%X\", tz = \"CET\"), \" les amis.\")\n\n[1] \"Nous sommes le 07/08/2022 et cette page a été mise à jour à 11:49:08 les amis.\""
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  }
+]

@@ -1,0 +1,19 @@
+---
+title: "sandbox-cronjob"
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{r}
+1 + 1
+```
+
+```{r}
+
+date <- Sys.Date()
+hour <- Sys.time()
+
+paste0("Nous sommes le ", format(date, format="%d/%m/%Y"), " et cette page a été mise à jour à ", format(hour, format="%X", tz = "CET"), " les amis.")
+```
